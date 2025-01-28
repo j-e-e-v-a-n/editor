@@ -14,6 +14,8 @@ window.addEventListener('scroll', () => {
     lastScrollTop = scrollTop;
 });
 
+
+
 // Enhanced scroll animations
 const scrollObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
